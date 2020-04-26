@@ -74,8 +74,9 @@ aside {
 
 img {
   display: block;
-  width: 50%;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 aside h3, h4 {
