@@ -19,6 +19,7 @@ header h1 {
   font-size: 75px;
   margin-top: 0;
   padding-top: 0;
+  overflow: hidden;
 }
 
 a:link {
@@ -59,6 +60,7 @@ aside {
   background-color: #621708;
   border-style: solid;
   margin: 10px;
+  overflow: hidden;
 }
 
 aside h3, h4 {
