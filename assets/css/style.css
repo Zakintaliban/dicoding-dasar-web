@@ -21,6 +21,9 @@ header h1 {
   padding-top: 0;
   overflow: hidden;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:link {
@@ -65,7 +68,10 @@ aside {
 }
 
 img {
-  width: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 aside h3, h4 {
@@ -86,10 +92,6 @@ footer a:link {
 
 footer a:visited {
   color: white;
-}
-
-.content {
-  display: flex;
 }
 
 footer {
