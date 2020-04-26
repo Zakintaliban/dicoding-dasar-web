@@ -28,6 +28,25 @@ header h1 {
   margin-right: auto;
 }
 
+header a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+header a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+header a:active {
+  text-decoration: underline;
+  color: black;
+}
+
 nav a:link {
   text-decoration: underline;
   color: black;
