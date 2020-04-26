@@ -1,3 +1,5 @@
+/* mobile version */
+
 body,
 html {
   margin: 0;
@@ -45,7 +47,8 @@ nav a:active {
   color: black;
 }
 
-main, footer {
+main,
+footer {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -79,7 +82,8 @@ img {
   width: 25%;
 }
 
-aside h3, h4 {
+aside h3,
+h4 {
   color: white;
 }
 
@@ -109,4 +113,23 @@ footer {
   text-align: center;
   font-weight: bold;
   overflow: hidden;
+}
+
+/* desktop version */
+
+@media (min-width: 992px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    align-items: flex-start;
+  }
 }
