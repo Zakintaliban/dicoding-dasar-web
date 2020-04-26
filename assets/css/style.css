@@ -26,17 +26,22 @@ header h1 {
   margin-right: auto;
 }
 
-a:link {
-  text-decoration: none;
+nav a:link {
+  text-decoration: underline;
   color: black;
 }
 
-a:hover {
+nav a:hover {
   font-weight: bold;
 }
 
-a:visited {
-  text-decoration: none;
+nav a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:active {
+  text-decoration: underline;
   color: black;
 }
 
@@ -71,7 +76,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 50%;
 }
 
 aside h3, h4 {
@@ -79,18 +84,22 @@ aside h3, h4 {
 }
 
 aside a:link {
+  text-decoration: underline;
   color: white;
 }
 
 aside a:visited {
+  text-decoration: underline;
   color: white;
 }
 
 footer a:link {
+  text-decoration: underline;
   color: white;
 }
 
 footer a:visited {
+  text-decoration: underline;
   color: white;
 }
 
