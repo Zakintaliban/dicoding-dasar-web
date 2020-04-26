@@ -1,15 +1,94 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header,
+nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: #f6aa1c;
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 75px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 a:link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+main, footer {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  background-color: #BC3908;
+  border-top: 0;
+  border-bottom: 0;
+  overflow: hidden;
+}
+
+#content {
+  border-style: solid;
+  margin: 10px;
+}
+
+article {
+  background-color: #941B0C;
+}
+
+aside {
+  background-color: #621708;
+  border-style: solid;
+  margin: 10px;
+}
+
+aside h3, h4 {
+  color: white;
+}
+
+aside a:link {
+  color: white;
+}
+
+aside a:visited {
+  color: white;
+}
+
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+.content {
+  display: flex;
+}
+
+footer {
+  color: white;
+  background-color: #220901;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+}
